@@ -9,19 +9,22 @@
 body {
     /* margin-left: 45px;
     margin-right: 45px; */
-    background-color: #fdd017;
+    background-color: white;
     /* f4c430 ffd700 */
+    /* background-image: url(images/stars.jpg); */
+    background-size;
 
 }
 header {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
-    padding-bottom: 25px;
-    background-color: #f4c430;
+    padding-bottom: 10px;
+    background-color: #ffffffd3;
     padding-left: 45px;
     padding-right: 45px;
-    font-family: "Pacifico", cursive;
+    font-family: "Amatic SC", sans-serif;
+    
     
 
 }
@@ -33,42 +36,87 @@ nav ul {
     list-style-type: none;
     
     
+    
 }
 
 nav a {
     text-decoration: none;
     color: black;
+    font-weight: 700;
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(255, 2, 2);
+}
+
+.frontpage {
+    width: 45%;
+    height: 100%;
+    margin: auto;
+}
+
+.front_container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Amatic SC", sans-serif;
 }
 
 .container {
+    padding-top: 10px;
+    padding-left: 25px;
+    margin: 0, auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    padding-top: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    /* flex-direction: column; */
+    font-family: "Amatic SC", sans-serif;
+    
 
     /* margin: 0, auto; */
     /* justify-content: space-between; */
 }
 
-.container p {
+.container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.container p{
+    font-size:2rem;
+    text-align: center;
+}
+.front_container p {
     text-align:center;
 }
+
+.front_container h1 {
+    text-align:center;
+    font-size: 5rem;
+    color:#a0a0a0;
+    font-weight: 100;
+}
+
+.front_container h2 {
+    text-align:center;
+    font-size: 4rem;
+    color:#383838;
+    font-weight: 100;
+    padding-bottom: 10rem;
+}
+
 
 .tile-set {
     width: 300px;
     height: 300px;
     padding: 35px 35px 35px 35px;
-    background-color: white;
+    /* background-color: rgb(117, 1, 194); */
     margin-bottom: 25px;
-    border-radius: 15px;
-    font-family: "Caveat", cursive;
-    font-size: 1.5rem;
+    /* border-radius: 15px; */
+    font-family: "Amatic SC", sans-serif;
+    /* font-family: "Caveat", cursive; */
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -76,4 +124,11 @@ nav a:hover {
     width: 100%;
     height: 100%;
     object-fit:scale-down;
+}
+
+.line {
+    height: 2px;
+    background-color: black;
+    border: none;
+
 }

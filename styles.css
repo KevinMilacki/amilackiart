@@ -61,6 +61,8 @@ nav a:hover {
     font-family: "Amatic SC", sans-serif;
 }
 
+
+
 .container {
     padding-top: 10px;
     padding-left: 25px;
@@ -131,4 +133,23 @@ nav a:hover {
     background-color: black;
     border: none;
 
+}
+.bio_container {
+    display: flex;
+    flex-direction:row;
+    padding: 50px;
+    gap: 200px;
+    justify-content: center;
+    margin: 0, auto;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.test {
+    font-size: 2rem;
+    /* width: 700px; */
+}
+
+.bio_container img {
+    width: 400px;
+    height: auto;
 }

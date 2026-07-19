@@ -51,6 +51,26 @@ nav a {
 nav a:hover {
     color: rgb(255, 2, 2);
 }
+/* 
+nav ul {
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    list-style-type: none;
+    
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: rgb(255, 2, 2);
+} */
 .head-container {
    margin: 0 auto;
    height: 100%;
@@ -224,7 +244,7 @@ nav a:hover {
  @media screen and (max-width: 768px) {
    
    h1 {
-      font-size: 2rem;
+      font-size: 1rem;
    }
 
    .head-container ul, li{
@@ -232,11 +252,45 @@ nav a:hover {
    }
    .slides {
       justify-content: center;
+      
+   }
+   nav ul {
+    display:block;
+    /* flex-direction: column; */
+    margin: 0;
+    padding: 0;
+    /* gap: 25px; */
+    font-size: .5rem;
+    list-style-type: none;
+        
+   }
+   /* nav li {
+      margin: 0;
+   } */
+
+   nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+   }
+
+   nav a:hover {
+    color: rgb(255, 2, 2);
+   }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    /* margin-bottom: px; */
+    justify-items: center;
 }
 
    .slides img {
       width: 50vw;
       height: auto;
+      align-items: center;
+      /* margin: 100px; */
+      
    }
    
    #leftButton, #rightButton, #exitButton {
